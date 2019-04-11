@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/header.h
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+string.h
+-
+
+/home/said/Desktop/Seyid/src/header.c
+header.h
+/home/said/Desktop/Seyid/src/header.h
+
+/home/said/Desktop/Seyid/src/testmain.c
+header.h
+/home/said/Desktop/Seyid/src/header.h
+
